@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-type IReduxData = {
+export type IReduxData = {
     mode: string;
     user: {
         friends: any;
