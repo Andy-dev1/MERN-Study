@@ -4,6 +4,8 @@ export type IReduxData = {
     mode: string;
     user: {
         friends: any;
+        firstName: any;
+        lastName: any;
     } | null;
     token: string | null;
     posts: [] | any;
